@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harga Emas Hari Ini</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .price { font-size: 2em; color: #b8860b; }
+    .label { font-size: 1.2em; margin-bottom: 10px; }
+    .note { font-size: .9em; color: #555; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Harga Emas Hari Ini</h1>
+  <div class="label">Emas 999 / 24K per gram:</div>
+  <div id="goldPrice" class="price">-</div>
+  <div class="note">Harga dikemas kini berdasarkan sumber dalam talian.</div>
+
+  <script>
+    // Contoh nilai hardcoded — anda boleh gantikan dengan fetch dari API sebenar
+    const price = "RM 607";  // boleh tukar dengan data sebenar dari sumber seperti Public Gold :contentReference[oaicite:0]{index=0}
+    document.getElementById("goldPrice").innerText = price;
+  </script>
+</body>
+</html>

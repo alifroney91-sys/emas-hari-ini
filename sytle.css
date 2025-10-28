@@ -1,0 +1,78 @@
+/* === GAYA UTAMA === */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fdf7e2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* === HEADER === */
+header {
+  background-color: #b8860b;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+/* === KANDUNGAN UTAMA === */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.label {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2.5em;
+  color: #b8860b;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* === FOOTER === */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+  font-size: 0.85em;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .price {
+    font-size: 2em;
+  }
+}
